@@ -24,7 +24,18 @@ client.on('guildMemberAdd', (member) => {
     }
 });
 
-const badWords = ["mc", "mc", "porn", "sexcy","sexy","bhnchod","bhosdike","bhosdiwale",,"gandu","chutiya","chutiye","randi","randiwale","behenchod","bc","bhenchod","madarchod","mcchod","saale","salue","gaand","pichwada","jhaat","jhaat ke","lund","loda","bhosda","bhosdi","betichod","beti chod","harami","haramzada","kaminey","kamine","kuttey","kutta","madar","madarchod","madar chod","chut","chutiya","chut ke","lund","loda","randi","randi ki","randi wale","gandu","gand ke","gand mein","behenchod","behen chod","saala","saale","saali","saali chod",];
+const badWords = [
+    "sexcy",
+    "sexy",
+    "harami",
+    "kutta",
+    "saale",
+    "chutiya",
+    "kamina",
+    "pagal",
+    "stupid",
+    "besharam"
+];
 
 // AI CHAT FEATURE
 client.on('messageCreate', async (message) => {
