@@ -27,14 +27,7 @@ client.on('guildMemberAdd', (member) => {
 const badWords = [
     "sexcy",
     "sexy",
-    "harami",
-    "kutta",
-    "saale",
-    "chutiya",
-    "kamina",
-    "pagal",
-    "stupid",
-    "besharam"
+   "motherfucker", "fuck", "bhenchod", "bastard", "asshole","kutta","maderchod"
 ];
 
 // AI CHAT FEATURE
@@ -49,6 +42,11 @@ client.on('messageCreate', async (message) => {
    const isAbusive = badWords.some(word => messageWords.includes(word));
 
     if (isAbusive) {
+
+        if(message.member.permissions.has('Administrator')){
+            return message.reply("Warning : Abusive language is not allowed here.");
+
+        }
         try {
             
             await message.member.kick("Used abusive language.");
