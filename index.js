@@ -27,7 +27,7 @@ client.on('guildMemberAdd', (member) => {
 const badWords = [
     "sexcy",
     "sexy",
-   "motherfucker", "fuck", "bhenchod", "bastard", "asshole","kutta","maderchod"
+   "motherfucker", "fuck", "bhenchod", "bastard", "asshole","kutta","maderchod","kamina"
 ];
 
 // AI CHAT FEATURE

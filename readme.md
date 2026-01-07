@@ -60,7 +60,7 @@ Zyro_Discord_Bot/
 
 - LLaMA 3.1 (8B Instant) – AI chat replies
 
-- Gemma 2 (9B IT) – Chat summarization
+
 
 ## 👨‍💻 Author
 

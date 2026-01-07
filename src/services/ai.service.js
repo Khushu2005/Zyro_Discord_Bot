@@ -41,7 +41,7 @@ async function getChatSummary(chatHistory) {
 
         const chatCompletion = await groq.chat.completions.create({
             messages: [{ role: "user", content: prompt }],
-            model: "gemma2-9b-it",
+            model: "llama-3.1-8b-instant",
         });
 
         return chatCompletion.choices[0]?.message?.content || "Error generating Summary.";
